@@ -1,0 +1,201 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  justify-content: space-between;
+  background-color: #ED78BE;
+  color: #F6EAE7;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  padding: 20px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.haj {
+  font-size: 40px;
+}
+
+.navside {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  color: #F6EAE7;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 20px;
+}
+
+.aboutme {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  border-bottom-style: solid;
+  border-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: #F6EAE7;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-column: auto;
+}
+
+.aboutme-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ED78BE;
+  border-radius: 25px;
+}
+
+.aboutme-left {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  flex: 1;
+}
+
+.aboutme-right {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex: 1;
+  text-align: center;
+  padding-top: 280px;
+}
+
+.intro {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.intropics {
+  justify-content: right;
+  display: inline-grid;
+  border-radius: 25px;
+}
+
+.self-portrait {
+  height: 90vh;
+  padding-bottom: 60px;
+}
+
+.intro-grid {
+  flex-direction: column;
+  grid-column: auto;
+  background-color: #ED78BE;
+  padding: 20px;
+  flex: 1;
+  border-radius: 25px;
+}
+
+.intro-container {
+  display: flex;
+  padding: 20px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  width: 4em;
+  height: 4em;
+}
+
+.list {
+  list-style-type: none;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 4000;
+  font-size: 80px;
+  font-style: bold;
+  color: #F6EAE7;
+}
+
+form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  align-items: center;
+}
+
+.form-group {
+  display: contents;
+}
+
+.contactme {
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.contactme form {
+  margin: 20px 0;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 50%;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.portfolio {
+  
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-bottom-style: solid;
+  border-bottom: 10px;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+  font-size: 10px;
+  color: #F6EAE7;
+}
+
+.portfolio1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-container {
+  padding: 20px;
+  background-color: #ED78BE;
+  border-radius: 25px;
+}
+
+a:hover {
+    color: white;
+
